@@ -1,0 +1,967 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#main nav{
+    background-color: black;
+    height: 37px;
+    width: 792px;
+    padding-left: 742px;
+    padding-top: 10px;
+}
+html{
+    background-color:rgb(255, 255, 255) ;
+}
+li{
+    display: inline;
+    color: rgb(255, 255, 255);
+
+   
+}
+
+
+
+   .book{
+    display: inline-block;
+    background-color:#cddc39 ;
+    height: 29px;
+    width: 103px;
+
+    padding-top: 10px;
+
+
+    
+   }
+ 
+   
+
+   .ride{
+    display: inline-block;
+   }
+    
+
+
+.navigation{
+    display: inline;
+    padding-left: 863px;
+    padding-top: 10px;
+    background-color: white;
+    height: 8vh;
+    width: 674px;
+    position: absolute;
+    top: 42px;
+    
+}
+.navigation li{
+    color: black;
+    
+    
+    
+}
+.logo{
+    position: absolute;
+top: 43px;
+left: 158px;
+}
+.jaipur{
+   
+    position: absolute;
+    top: 99px;
+    left: 0px;
+
+}
+.heading1{
+    position: absolute;
+top: 113px;
+left: 282px;
+font-size: 55px;
+color: rgb(0, 0, 0);
+}
+.heading2{
+    position: absolute;
+    top: 179px;
+    left: 488px;
+    font-size: 31px;
+    color: rgb(0, 0, 0);
+
+}
+#destination{
+    position: absolute;
+    top: 260px;
+    left: 134px;
+    background-color: white;
+    height: 402px;
+    width: 427px;
+}
+#main a{ 
+    text-decoration: none;
+    color: white;
+    
+
+}
+#main2 a{
+    text-decoration: none;
+    color: black;
+    
+}
+#main2 a:hover {
+    color:#cddc39;
+  }
+#main a:hover{
+    color: #cddc39;
+}
+#FORM{
+   
+    position: absolute;
+    top: 122px;
+    left: 42px;
+    border: 10px;
+
+}
+.trip{
+    padding-left: 23px;
+    padding-top: 16px;
+    padding-right: 20px;
+}
+.taxi{
+    display: inline-block;
+    background-color: #cddc39;
+    height: 22px;
+    width: 89px;
+    margin-right: 35px;
+    margin-left: 3px;
+    border-left: 9px solid #cddc39;
+    border-radius: 37px;
+
+    
+
+}
+.text2{
+    font-size: 17px;
+    position: absolute;
+    top: 59px;
+    left: 95px;
+}
+
+
+#Cabs{
+    margin-left: 12px;
+    margin-top: 308px;
+    padding-top: 9px;
+    font-size: 23px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+    background-color: #cddc39;
+    height: 39px;
+
+    
+  }
+.select{
+    position: absolute;
+top: 883px;
+left: 262px;
+}
+
+.corporate{
+    position: absolute;
+    top: 883px;
+    left: 624px;
+}
+
+.play{
+    position: absolute;
+    top: 883px;
+    left: 986px; 
+}
+.page2text1{
+    position: absolute;
+top: 1041px;
+left: 152px;
+font-size: 34px;
+}
+.page2text2{
+    position: absolute;
+top: 1079px;
+left: 152px;
+font-size: 19px;
+color: rgba(0, 0, 0, 0.6);
+}
+.city{
+   
+    position: absolute;
+    top: 1127px;
+    left: 136px;
+}
+.city img{
+    width: 395px;
+}
+.city img:hover{
+    width: 410px;
+    transition: 1s;
+}
+.OUTSTATION{
+    position: absolute;
+top: 1118px;
+left: 603px;
+}
+.OUTSTATION img{
+    width: 395px;
+}
+.OUTSTATION img:hover{
+    width: 410px;
+    transition: 1s;
+}
+.rental{
+    position: absolute;
+top: 1129px;
+left: 1067px;
+}
+.rental img{
+    width: 395px;
+}
+.rental img:hover{
+    width: 410px;
+    transition: 1s;
+}
+.page3text1{
+    font-size: 34px;
+position: absolute;
+top: 1724px;
+left: 152px;
+}
+.page3text2{
+    font-size: 19px;
+    position: absolute;
+    top: 1761px;
+    left: 152px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.why1img{
+    
+    position: absolute;
+    top: 1836px;
+    left: 152px;
+}  
+.why1heading{
+    font-size: 19px;
+    position: absolute;
+    top: 1836px;
+    left: 341px;
+}
+.why1text{
+    font-size: 16px;
+    position: absolute;
+    top: 1861px;
+    left: 341px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.why2img{
+    
+    position: absolute;
+    top: 1836px;
+    right: 487px;
+}  
+.why2heading{
+    font-size: 19px;
+    position: absolute;
+    top: 1836px;
+    right: 280px;
+}
+.why2text{
+    font-size: 16px;
+    position: absolute;
+    top: 1861px;
+    right: 152px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.why3img{
+    
+    position: absolute;
+    top: 2005px;
+    left: 152px;
+}  
+.why3heading{
+    font-size: 19px;
+    position: absolute;
+    top: 2005px;
+    left: 341px;
+}
+.why3text{
+    font-size: 16px;
+    position: absolute;
+    top: 2030px;
+    left: 341px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+.why4img{
+    
+    position: absolute;
+    top: 2005px;
+    right: 487px;
+}  
+.why4heading{
+    font-size: 19px;
+    position: absolute;
+    top: 2005px;
+    right: 280px;
+}
+.why4text{
+    font-size: 16px;
+    position: absolute;
+    top: 2030px;
+    right: 152px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.why5img{
+    
+    position: absolute;
+    top: 2174px;
+    left: 152px;
+}  
+.why5heading{
+    font-size: 19px;
+    position: absolute;
+    top: 2174px;
+    left: 341px;
+}
+.why5text{
+    font-size: 16px;
+    position: absolute;
+    top: 2199px;
+    left: 341px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.why6img{
+    
+    position: absolute;
+    top: 2174px;
+    right: 487px;
+}  
+.why6heading{
+    font-size: 19px;
+    position: absolute;
+    top: 2174px;
+    right: 340px;
+}
+.why6text{
+    font-size: 16px;
+    position: absolute;
+    top: 2199px;
+    right: 152px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.page4text1{
+    font-size: 34px;
+position: absolute;
+top: 2309px;
+left: 152px;
+color: black;
+}
+
+.page4text2{
+    font-size: 19px;
+    position: absolute;
+    top: 2346px;
+    left: 152px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.auto{
+    position: absolute;
+    top: 2387px;
+    left: 152px;
+}
+.bike{
+    position: absolute;
+    top:2387px ;
+    left:272px ;
+    
+    border-radius: 100px;
+}
+.micro{
+    position: absolute;
+    top:2387px ;
+    left:399px ;
+    border-radius: 100px;
+}
+.mini{
+    position: absolute;
+top: 2392px;
+left: 531px;
+border-radius: 100px;
+}
+.primeplay{
+    position: absolute;
+top: 2387px;
+left: 666px;
+border-radius: 100px;
+}
+.lux{
+    position: absolute;
+    top:2387px ;
+    left: 810px; 
+    border-radius: 100px;
+}
+.suv{
+    position: absolute;
+    top: 2421px;
+    left: 947px;
+    border-radius: 100px;
+}
+.rick{
+    position: absolute;
+    top: 2390px;
+    left: 1075px;
+    border-radius: 100px;
+}
+.kali{
+    position: absolute;
+    top: 2390px;
+    left: 1200px;
+    border-radius: 100px;  
+}
+.auto:hover{
+   
+    background-color: #cddc39;
+   
+    border-radius: 100px;
+margin-left: 15px;
+transition: 1s;
+
+}
+.auto:hover{
+   
+    background-color: #cddc39;
+   
+    border-radius: 100px;
+margin-left: 15px;
+transition: .3s;
+
+}
+.bike:hover{
+   
+    background-color: #cddc39;
+   
+    border-radius: 100px;
+margin-left: 15px;
+transition: .3s;
+
+}
+.share:hover{
+   
+    background-color: #cddc39;
+   
+    border-radius: 100px;
+margin-left: 15px;
+transition: .3s;
+
+}
+.micro:hover{
+   
+    background-color: #cddc39;
+   
+    border-radius: 100px;
+margin-left: 15px;
+transition: 1s;
+
+}
+.mini:hover{
+   
+    background-color: #cddc39;
+   
+    border-radius: 100px;
+margin-left: 15px;
+transition: 1s;
+}
+
+.primeplay:hover{
+   
+    background-color: #cddc39;
+   
+    border-radius: 100px;
+margin-left: 15px;
+transition: 1s;
+}
+.lux:hover{
+   
+    background-color: #cddc39;
+   
+    border-radius: 100px;
+margin-left: 15px;
+transition: 1s;
+}
+.suv:hover{
+   
+    background-color: #cddc39;
+    height: auto;
+    width: auto;
+   
+    border-radius: 100px;
+margin-left: 15px;
+transition: 1s;
+}
+.rick:hover{
+   
+    background-color: #cddc39;
+   
+    border-radius: 100px;
+margin-left: 15px;
+transition: 1s;
+}
+.kali:hover{
+   
+    background-color: #cddc39;
+   
+    border-radius: 100px;
+margin-left: 15px;
+transition: 1s;
+}
+.auto{
+    background-color: #cddc39;
+    ;
+    border-radius:  100px; ;
+}
+.auto1{
+    position: absolute;
+top: 2503px;
+
+}
+.auto1{
+    padding-left: 261px;
+    padding-top: 90px;
+    background-color: #f1f1f1;
+    height: 453px;
+    width: 1273px;
+}
+.autotext{
+    position: absolute;
+top: 2638px;
+left: 757px;
+}
+.android{
+    padding-left: 839px;
+    background-color: #f1f1f1;
+  height: 524px;
+  width: 698px;
+  position: absolute;
+  top: 3045px;
+}
+    
+.page5text1{
+    font-size: 34px;
+    position: absolute;
+    top: 3252px;
+    left: 152px;
+    color: black;
+}
+
+.page5text2{
+    font-size: 19px;
+position: absolute;
+top: 3298px;
+left: 152px;
+color: rgba(0, 0, 0, 0.6);
+}
+.playstore{
+    position: absolute;
+    top: 3353px;
+    left: 152px;  
+}
+.appstore{
+    position: absolute;
+    top: 3353px;
+    left: 310px;  
+}
+.microsoft{
+    position: absolute;
+    top: 3353px;
+    left: 465px;  
+}
+
+.topvisitedcities{
+   
+    padding-top: 81px;
+    padding-left: 74px;
+    color: white;
+    background-color: #393939;
+    height: 824px;
+    width: 1465px;
+    position: absolute;
+    top: 3568px;
+}
+.PopularOutstationRoutes{
+    color: white;
+    position: absolute;
+    top: 3720px ;
+    left: 74px;
+}
+#northindia{
+    color: white;
+    position: absolute;
+    top: 3720px;
+    left: 382px;
+}
+#northindia li{
+   
+    padding-bottom: 10px;
+    display: block;
+}
+#northindia a{
+    text-decoration: none;
+    color: white;
+}
+#northindia a:hover{
+    color: #cddc39;
+}
+#southernindia{
+    color: white;
+    position: absolute;
+    top: 3720px;
+    left: 766px;
+}
+#southernindia li{
+   
+    padding-bottom: 10px;
+    display: block;
+}
+#southernindia a{
+    text-decoration: none;
+    color: white;
+}
+#southernindia a:hover{
+    color: #cddc39;
+}
+#eastandwestindia{
+    color: white;
+    position: absolute;
+    top: 3720px;
+    left: 1191px;
+}
+#eastandwestindia li{
+   
+    padding-bottom: 10px;
+    display: block;
+}
+#eastandwestindia a{
+    text-decoration: none;
+    color: white;
+}
+#eastandwestindia a:hover{
+    color: #cddc39;
+}
+.textsocial{
+    color: white;
+    position: absolute;
+    top: 4064px ;
+    left: 74px;
+}
+.social{
+    position: absolute;
+    top: 4050px;
+    left: 331px;
+}
+.social li{
+    display: inline;
+    padding-left: 50px;
+
+}
+.discover{
+    color: white;
+    position: absolute;
+    top: 4243px;
+    left: 74px;
+}
+.perks ul{
+    display: inline;
+    position: absolute;
+    top: 4243px;
+    left: 331px;
+}
+.perks li{
+    padding-left:  51px;
+    
+    
+
+
+}
+.perks a{
+    color: white;
+    text-decoration: none;
+   
+
+}
+.perks a:hover{
+color:#cddc39;
+}
+.driver{
+    position: absolute;
+    top: 4243px;
+    left: 1222px;
+}
+.driver li{
+    padding-left: 20px;
+    display: inline;
+
+}
+.driver a{
+    text-decoration: none;
+    color:white ;
+}
+.driver  a:hover{
+    color: #cddc39;
+}
+.logo3{
+    position: absolute;
+    top: 4385px;
+    left: 74px;
+}
+.end{
+    position: absolute;
+    top: 4388px;
+    left: 970px;
+}
+.end li{
+    padding-left: 64px;
+display: inline;
+}
+.end a{
+    text-decoration: none;
+    color: white;
+}
+.end a:hover{
+    color: #cddc39;
+}
+.copyright{
+    color: #f1f1f1;
+    
+    position: absolute;
+    top: 4422px;
+    left: 1020px;
+}
+#why1:hover{
+    color: #cddc39;
+}
+#why2:hover{
+    color: #cddc39;
+}
+#why3:hover{
+    color: #cddc39;
+}
+#why4:hover{
+    color: #cddc39;
+}
+#why5:hover{
+    color: #cddc39;
+}
+#why6:hover{
+    color: #cddc39;
+}
+
+
+@media only screen and (max-width: 915px) {
+    nav{
+        display: none;
+    }
+    .logo{
+        position: absolute;
+        top: 23px;
+        left: 35vw;
+
+    }
+    .heading1{
+        display: none;
+    }
+    .heading2{
+        display: none;
+    }
+    .jaipur{
+        display: none;
+    }
+    .jaipur2{
+        position: absolute;
+        top: 93px;
+        left: 0px;
+    }
+    #main nav{
+       display: none;
+    }
+    .navigation{
+      display: none;
+    }
+    #destination{
+        position: absolute;
+top: 39vh;
+left: -1vh;
+background-color: white;
+height: 402px;
+width: 427px;
+    }
+    .select{
+        position: absolute;
+        top : 875px;
+        left : 70px;
+    }
+    
+    .corporate{
+        position: absolute;
+        top: 956px;
+        left: 81px;
+    }
+    
+    .play{
+        position: absolute;
+top: 1041px;
+left: 82px;
+    }
+    .page2text1{
+        position: absolute;
+        top: 1136px;
+        left: 24px;
+        font-size: 34px;
+    }
+    .page2text2{
+        position: absolute;
+        top: 1179px;
+        left: 19px;
+        font-size: 19px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    .city{
+   
+        position: absolute;
+        top: 1276px;
+        left: 45px;
+    }
+    .city img{
+        width: 395px;
+    }
+    .city img:hover{
+        width: 410px;
+        transition: 1s;
+    }
+    .OUTSTATION{
+        
+        position: absolute;
+        top: 1855px;
+        left: 52px;
+    }
+    .OUTSTATION img{
+        
+        width: 395px;
+    }
+    .OUTSTATION img:hover{
+        width: 410px;
+        transition: 1s;
+    }
+    .rental{
+        position: absolute;
+        top: 2443px;
+        left: 57px;
+    }
+    .rental img{
+        width: 395px;
+    }
+    .rental img:hover{
+        width: 410px;
+        transition: 1s;
+    }
+    .page3text1 {
+        font-size: 34px;
+        position: absolute;
+        top: 3014px;
+        left: 23px;
+      }
+      .page3text2 {
+        font-size: 19px;
+        position: absolute;
+        top: 3056px;
+        left: 32px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+      .why2heading {
+        font-size: 19px;
+        position: absolute;
+        top: 3124px;
+        right: 107px;
+      }
+      .why1img {
+        position: absolute;
+        top: 3127px;
+        left: 32px;
+      }
+      .why2text {
+        font-size: 15px;
+        position: absolute;
+        top: 3149px;
+        right: -3px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+    .auto1 {
+        padding-left: 261px;
+        padding-top: 90px;
+        background-color: #f1f1f1;
+        height: 453px;
+        width: 1273px;
+    }
+    .auto1{
+        position: absolute;
+    top: 10000px;
+    }
+    .android {
+        padding-left: 839px;
+        background-color: #f1f1f1;
+        height: 524px;
+        width: 698px;
+        position: absolute;
+        top: 10000px;
+      }
+      .topvisitedcities {
+        padding-top: 81px;
+        padding-left: 74px;
+        color: white;
+        background-color: #393939;
+        height: 824px;
+        width: 1465px;
+        position: absolute;
+        top: 4491px;
+      }
+      .page5text1 {
+        font-size: 34px;
+        position: absolute;
+        top: 10000px;
+        left: 152px;
+        color: black;
+      }
+      .page5text2 {
+        font-size: 19px;
+        position: absolute;
+        top: 10000px;
+        left: 152px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+      .playstore {
+        position: absolute;
+        top: 10000px;
+        left: 152px;
+      }
+      .appstore {
+        position: absolute;
+        top: 10000px;
+        left: 310px;
+      }
+      .microsoft {
+        position: absolute;
+        top: 10000px;
+        left: 465px;
+      }
+      
+    
+        
+}
